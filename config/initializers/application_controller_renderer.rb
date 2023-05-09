@@ -1,5 +1,3 @@
-config.require_master_key = true
-
 # Be sure to restart your server when you modify this file.
 
 # ActiveSupport::Reloader.to_prepare do
@@ -7,4 +5,4 @@ config.require_master_key = true
 #     http_host: 'example.org',
 #     https: false
 #   )
-# end
+
