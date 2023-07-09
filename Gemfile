@@ -35,6 +35,7 @@ gem 'sendgrid-ruby'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'rails_admin'
 gem 'cancancan'
+gem 'uglifier'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
