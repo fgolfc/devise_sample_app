@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: devise_sample_app_production
-  username: devise_sample_app
+  database: devise_sample_app_development
+  username: fujimogolf
   password: <%= ENV['DEVISE_SAMPLE_APP_DATABASE_PASSWORD'] %>
