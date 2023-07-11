@@ -4,3 +4,10 @@ ja:
       x_days:
         one: "1日"
         other: "%{count}日"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              taken: "は既に使用されています"
