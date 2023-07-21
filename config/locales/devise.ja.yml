@@ -1,9 +1,4 @@
 ja:
-  datetime:
-    distance_in_words:
-      x_days:
-        one: "1日"
-        other: "%{count}日"
   activerecord:
     attributes:
       user:
@@ -146,8 +141,3 @@ ja:
       not_saved:
         one: エラーが発生したため %{resource} は保存されませんでした。
         other: "%{count} 件のエラーが発生したため %{resource} は保存されませんでした。"
-    models:
-      user:
-        attributes:
-          email:
-            taken: "は既に使用されています"
